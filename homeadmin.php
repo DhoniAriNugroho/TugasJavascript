@@ -74,7 +74,7 @@ $result=mysql_query('SELECT * FROM sd order by KELURAHAN');
 
  <a href="delete.php?id=<?php echo $row['NPSN'] ?>" onclick="return
 confirm('Apakah anda yakin?')">Delete</a>
- <a href="update.php?id=<?php echo $row['NPSN']; ?>">Update</a>
+ <a href="edit.php?id=<?php echo $row['NPSN']; ?>">Update</a>
  </td>
  </tr>
  <?php
